@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zipbite | Food delivery app</title>
+
+    <!-- Google Fonts: Bricolage Grotesque (bold, fun headings) + DM Sans (body text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#home" class="logo">Zipbite</a>
+      <nav class="nav">
+        <a href="#food">Food</a>
+        <a href="#how">How it works</a>
+        <a href="#restaurants">Restaurants</a>
+      </nav>
+      <a href="#download" class="btn btn-small">Get the app</a>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <h1>Food you love, at your door.</h1>
+          <p>
+            Order from restaurants near you and watch your meal travel to your
+            door, live on the map.
+          </p>
+
+          <div class="stores">
+            <a href="#download" class="store">
+              <small>Download on the</small>
+              App Store
+            </a>
+            <a href="#download" class="store">
+              <small>Get it on</small>
+              Google Play
+            </a>
+          </div>
+        </div>
+
+        <!-- Phone illustrator -->
+        <div class="phone">
+          <div class="screen">
+            <div class="top">
+              <strong>Your order is on the way</strong>
+              <span>Arriving in 12 minutes</span>
+            </div>
+            <div class="map">
+              <span class="pin start">🍕</span>
+              <div class="route"></div>
+              <span class="scooter">🛵</span>
+              <span class="pin end">🏠</span>
+            </div>
+            <div class="status">
+              <div class="bar"><span></span></div>
+              <p>Order confirmed</p>
+              <p>Being prepared</p>
+              <p><strong>Out for delivery</strong></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Food items -->
+      <section class="section" id="food">
+        <h2>What are you carving?</h2>
+        <div class="chips">
+          <a href="#restaurants" class="chip">🍕 Pizza</a>
+          <a href="#restaurants" class="chip">🍔 Burger</a>
+          <a href="#restaurants" class="chip">🍣 Sushi</a>
+          <a href="#restaurants" class="chip">🍛 Biryani</a>
+          <a href="#restaurants" class="chip">🌮 Tacos</a>
+          <a href="#restaurants" class="chip">🥗 Salads</a>
+          <a href="#restaurants" class="chip">🍰 Deserts</a>
+        </div>
+      </section>
+
+      <!-- How it work -->
+      <section class="section section-tint" id="how">
+        <h2>Dinner in three taps</h2>
+        <div class="grid-3">
+          <div class="step">
+            <span class="num">1</span>
+            <h3>Pick your meal</h3>
+            <p>Browse menus from restaruants near you.</p>
+          </div>
+          <div class="step">
+            <span class="num">2</span>
+            <h3>Pick your order</h3>
+            <p>Pay in the app. No cash, no phone calls.</p>
+          </div>
+          <div class="step">
+            <span class="num">3</span>
+            <h3>Track it live</h3>
+            <p>Watch your rider on the map until the doorbell rings.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="section section-dark">
+        <h2>Made for hungry people</h2>
+        <div class="grid-4">
+          <article class="feature">
+            <div class="icon">📍</div>
+            <h3>Live tracking</h3>
+            <p>See exactly where your food is.</p>
+          </article>
+          <article class="feature">
+            <div class="icon">🚪</div>
+            <h3>Contactless drop-off</h3>
+            <p>Ask your rider to leave it at the door.</p>
+          </article>
+          <article class="feature">
+            <div class="icon">⏰</div>
+            <h3>Order ahead</h3>
+            <p>Schedule your lunch in the morning.</p>
+          </article>
+          <article class="feature">
+            <div class="icon">🎟️</div>
+            <h3>Deals every week</h3>
+            <p>Fresh offers from your favourite places.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Restaurants -->
+      <section class="section" id="restaurants">
+        <h2>Popular near you</h2>
+        <div class="grid-3">
+          <article class="place">
+            <div class="place-photo red">🍕</div>
+            <h3>Napoli Slice</h3>
+            <p>Wood-fired pizza</p>
+            <p class="time">Delivery in 25 to 35 min</p>
+          </article>
+          <article class="place">
+            <div class="place-photo yellow">🍔</div>
+            <h3>Stack House</h3>
+            <p>Burgers and fries</p>
+            <p class="time">Delivery in 20 to 30 min</p>
+          </article>
+          <article class="place">
+            <div class="place-photo green">🍣</div>
+            <h3>Sakura Roll</h3>
+            <p>Fresh sushi and ramen</p>
+            <p class="time">Delivery in 30 to 40 min</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section class="section section-tint">
+        <blockquote>
+          My food arrived hot, and I watched the whole trip on the map. I do not
+          call restaurants anymore. <cite>Daniel, customer</cite>
+        </blockquote>
+      </section>
+
+      <!-- Download -->
+      <section class="section section-red" id="download">
+        <h2>Dinner is one tap away.</h2>
+        <p class="section-intro">
+          Download Zipbite and place your first order tonight.
+        </p>
+        <div class="stores center">
+          <a href="#download" class="store">
+            <small>Download on the </small>
+            App Store
+          </a>
+          <a href="#download" class="store">
+            <small>Get it on</small>
+            Google Play
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Zipbite · hello@zipbite.example · Made for hungry people</p>
+    </footer>
+  </body>
+</html>
